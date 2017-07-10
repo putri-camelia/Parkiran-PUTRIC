@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manajer</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      body {
+        background-image: url("assets/gambar/bg3.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      form {
+        border :2px; 
+        padding: 10%; 
+        border-radius: 5px; 
+        box-shadow: 0 20px 30px #101010;
+      }
+      h3,h2,h1,h4 {
+        color :#BFBFBF;
+      }
+      #id {
+        color :#BFBFBF;
+      }
+      .btn {
+        border-radius: 5px; 
+        border :2px;
+        color: #22313F; 
+        width: 100%; 
+      }
+      label {
+        color :white;
+      }
+      #id {
+        color: white;
+      }
+      table {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="navbar transparent navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <span class="navbar-brand"><img src="assets/gambar/parkir.png" width="80px" align="center"></span>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html"><img src="assets/gambar/home1.png" width="30px"></a></li>
+          </ul>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="nav navbar-nav">
+              <h1>PARKIRAN</h1>
+              <h4>Markir Boleh, Mangkir Jangan.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-12">
+        <div class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4" align="center">
+                <form action="login.html">
+                  <div class="form-group">
+                      <h2>Manajer</h2>
+                  </div>
+                  <div class="form-group">
+                    <img src="assets/gambar/user.png" width="80px">
+                  </div>
+                  <div class="form-group" id="id">
+                    <dt>Nama</dt>
+                    <dd>Aris</dd>
+                    <dt>Id Manajer</dt>
+                    <dd>M111</dd>
+                  </div>
+                  <div class="form-group">
+                   <button type="submit" class="btn btn-default"></a>Keluar</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-8">
+                  <table class="table table-default">
+                    <tr>
+                      <td>Laporan Keuangan</td>
+                      <td>
+                        <a href="lapkeuangan.html"><button type="submit" class="btn btn-default">Lihat</button></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Laporan Kedaraan</td>
+                      <td>
+                        <a href="lapkendaraan.html"><button type="submit" class="btn btn-default">Lihat</button></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Laporan Kasus</td>
+                      <td>
+                        <a href="laporankasus.html"><button type="submit" class="btn btn-default">Lihat</button></a>
+                      </td>
+                    </tr>
+                  </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <nav class="navbar teransparent navbar-fixed-bottom" id="footer">
+            <div class="form-group" align="center">
+              <h5>Copyright Sistem Informasi Perparkiran</h5>
+            </div>
+          </nav>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

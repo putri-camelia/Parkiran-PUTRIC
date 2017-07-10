@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Operator</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      body {
+        background-image: url("assets/gambar/bg3.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      table,h1,h4,  a {
+        color :#BFBFBF;
+      }
+      .active {
+        color :#22313F;
+      }
+      .active a {
+        color :#22313F;
+      }
+      .btn {
+        color :#22313F;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar transparent navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <span class="navbar-brand"><img src="assets/gambar/parkir.png" width="80px" align="center"></span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html"><img src="assets/gambar/home1.png" width="30px"></a></li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="nav navbar-nav">
+            <h1>PARKIRAN</h1>
+            <h4>Markir Boleh, Mangkir Jangan.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="container">
+        <h1><u>Data Operator</u></h1>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <ul class="nav nav-pills nav-stacked" role="tablist">
+                <li><a href="profiladm.html">Profil</a></li>
+                <li><a href="#">User</a>
+                  <ul>
+                    <li><a href="dataadm.html">Admin</a></li>
+                    <li><a href="datamnj.html">Manajer</a></li>
+                    <li><a href="dataopt.html">Operator</a></li>
+                  </ul>
+                </li>
+                <li><a href="kendaraan.html">Kendaraan</a></li>
+                <li><a href="keuangan.html">Keuangan</a></li>
+                <li><a href="kasus.html">Kasus</a></li>
+              </ul>
+          </div>
+          <div class="col-md-5" align="center">
+            <table class="table table-bordered">
+              <tr>
+                <td>Nama</td>
+                <td class="active">Id Operator</td>
+                <td class="active" align="center"><a href="tambahopt.html">Tamabah Operator</a></td>
+              </tr>
+              <tr>
+                <td>Adi</td>
+                <td class="active">O111M</td>
+                <td class="active" align="center">
+                  <a href="editopt.html" ><button type="button" class="btn btn-link">Edit</button></a>
+                  <button type="button" class="btn btn-link" id="hapus">Hapus</button>
+                  <a href="lihatopt.html"><button type="button" class="btn btn-link">Lihat</button></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Budi</td>
+                <td class="active">O211K</td>
+                <td class="active" align="center">
+                <button type="button" class="btn btn-link">Edit</button>
+                <button type="button" class="btn btn-link">Hapus</button>
+                <button type="button" class="btn btn-link">Lihat</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-3" id="tombol">         
+          </div>
+        <div class="form-group">
+          <nav class="navbar teransparent navbar-fixed-bottom">
+            <div class="form-group" align="center">
+              <h5>Copyright Sistem Informasi Perparkiran</h5>
+            </div>
+          </nav>
+        </div>
+      </div>      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('button#hapus').click(function(){
+        if (confirm('Apakah anda ingin menghapus user?')) {
+          return true;
+        }
+        return false;
+      });
+    });
+  </script>
+  </body>
+</html>

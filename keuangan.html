@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keuangan</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      body {
+        background-image: url("assets/gambar/bg3.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      table,h1,h4 {
+        color :#BFBFBF;
+      }
+      .active {
+        color :#22313F;
+      }
+      a {
+        color :#BFBFBF;
+      }
+      .btn {
+        color :#BFBFBF;
+      }
+      h3 {
+        color :#BFBFBF;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="navbar transparent navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <span class="navbar-brand"><img src="assets/gambar/parkir.png" width="80px" align="center"></span>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html"><img src="assets/gambar/home1.png" width="30px"></a></li>
+          </ul>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="nav navbar-nav">
+              <h1>PARKIRAN</h1>
+              <h4>Markir Boleh, Mangkir Jangan.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <ul class="nav nav-pills nav-stacked" role="tablist">
+                <li><a href="profiladm.html">Profil</a></li>
+                <li><a href="#">User</a>
+                  <ul>
+                    <li><a href="dataadm.html">Admin</a></li>
+                    <li><a href="datamnj.html">Manajer</a></li>
+                    <li><a href="dataopt.html">Operator</a></li>
+                  </ul>
+                </li>
+                <li><a href="kendaraan.html">Kendaraan</a></li>
+                <li><a href="keuangan.html">Keuangan</a></li>
+                <li><a href="kasus.html">Kasus</a></li>
+              </ul>
+          </div>
+          <div class="col-md-5" align="center">
+                  <table class="table table-default">
+                    <tr>
+                      <td>Perhari</td>
+                      <td>
+                          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="hh/bb/tttt">
+                      </td>
+                      <td>
+                        <a href="lapkeuanganperhariadm.html"><button type="submit" class="btn btn-default">Lihat</button></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Perbulan</td>
+                      <td>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="bb/tttt">
+                      </td>
+                      <td>
+                        <a href="lapkeuanganperbulanadm.html"><button type="submit" class="btn btn-default">Lihat</button></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Pertahun</td>
+                      <td>
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="tahun">
+                      </td>
+                      <td>
+                        <a href="lapkeuanganpertahunadm.html"><button type="submit" class="btn btn-default">Lihat</button></a>
+                      </td>
+                    </tr>
+                  </table>
+          </div>
+          <div class="col-md-5">
+            <table class="table table-bordered">
+              <tr>
+                <td>Tarif Parkir Mobil/Jam (Hari Biasa)</td>
+                <td>Rp. 2.000,-</td>
+              </tr>
+            </table>
+            <table class="table table-bordered">
+              <tr>
+                <td>Tarif Parkir Mobil/Jam (Hari Libur)</td>
+                <td>Rp. 3.000,-</td>
+              </tr>
+            </table>
+            <table class="table table-bordered">
+              <tr>
+                <td>Tarif Parkir Motor/Jam (Hari Biasa)</td>
+                <td>Rp. 1.000,-</td>
+              </tr>
+            </table>            
+            <table class="table table-bordered">
+              <tr>
+                <td>Tarif Parkir Motor/Jam (Hari Libur)</td>
+                <td>Rp. 2.000,-</td>
+              </tr>
+            </table>
+            <table>
+              <a href="ubahtarif.html"><button type="button" class="btn btn-link">Ubah Tarif</button></a>
+            </table>
+          </div>
+        <div class="form-group">
+          <nav class="navbar teransparent navbar-fixed-bottom">
+            <div class="form-group" align="center">
+              <h5>Copyright Sistem Informasi Perparkiran</h5>
+            </div>
+          </nav>
+        </div>
+      </div>      
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+   function simpan(){
+    alert('Data Tersimpan');
+  }
+  </script>
+  </body>
+</html>

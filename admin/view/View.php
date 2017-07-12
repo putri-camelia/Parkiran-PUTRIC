@@ -7,13 +7,13 @@ class View
 
 	function __construct()
 	{
-		include_once 'template/header.php';
-		include_once 'template/sidebar.php';
+		include_once 'template/lihatkendaraan/header.php';
+		include_once 'template/lihatkendaraan/sidebar.php';
 	}
 
 	protected function end()
 	{
-		include 'template/footer.php';
+		include 'template/lihatkendaraan/footer.php';
 	}
 }
 

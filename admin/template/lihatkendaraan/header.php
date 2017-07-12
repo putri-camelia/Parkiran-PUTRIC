@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Profil Admin</title>
+    <title>Manajer-Kendaraan Perbulan</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <style type="text/css">
       body {
@@ -15,20 +14,38 @@
         background-size: 100%;
         background-repeat: no-repeat;
       }
-      table,h1,h4 {
+      form {
+        border :2px; 
+        padding: 5%; 
+        border-radius: 5px; 
+        box-shadow: 0 20px 30px #101010;
+      }
+      h3,h2,h1,h4 {
         color :#BFBFBF;
       }
-      .active {
-        color :#22313F;
-      }
-      a {
+      #id {
         color :#BFBFBF;
       }
       .btn {
-        color :#BFBFBF;
+        border-radius: 5px; 
+        border :2px;
+        color: #22313F; 
+        width: 100%; 
       }
-      h3 {
-        color :#BFBFBF;
+      label {
+        color :white;
+      }
+      #id {
+        color: white;
+      }
+      table {
+        color: white;
+      }
+      #daftar {
+        color: #22313F;
+      }
+      #footer {
+        padding-top: 200px;
       }
     </style>
   </head>

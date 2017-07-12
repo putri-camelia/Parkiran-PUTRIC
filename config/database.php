@@ -1,6 +1,6 @@
 <?php 
-$host='localhost';
-$dbname='sisfonews';
-$username='root';
-$password='irfan110697';
+$host="localhost";
+$dbname="Parkiran";
+$username="root";
+$password="irfan110697";
 ?>

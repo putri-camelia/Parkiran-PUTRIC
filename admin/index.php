@@ -1,8 +1,8 @@
 <?php 
-include 'view/UbahTarifUI.php';
+include 'view/KelolaKeuanganUI.php';
 
-$brd = new UbahTarifUI();
+$kk = new KelolaKeuanganUI();
 
-$brd->ubahTarifParkir();
+$kk-> aksesTampilanKelolaKeuangan()
 
 ?>

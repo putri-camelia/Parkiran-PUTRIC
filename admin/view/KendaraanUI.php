@@ -9,7 +9,7 @@ require_once 'View.php';
  	{
  		include_once 'model/Kendaraan.php';
  		$kdr = new Kendaraan();
- 		$isi_kendaraan = $kdr->ambilKendaraan();
+ 		$isi_kendaraan = $kdr->lihatDataKendaraan();
  		include_once 'pages/laporankendaraan.php';
  		$this->end();
  	}

@@ -14,6 +14,10 @@ class OperatorControl extends Controller
 	public function inputDataKendaraan()
 	{
 		# code...
+	}		
+	public function getDataKendaraan()
+	{
+		# code...
 	}	
 }
 ?>

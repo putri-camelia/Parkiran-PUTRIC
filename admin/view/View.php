@@ -7,13 +7,13 @@ class View
 
 	function __construct()
 	{
-		include_once 'template/lihatkendaraan/header.php';
-		include_once 'template/lihatkendaraan/sidebar.php';
+		include_once 'ubahtarif/header.php';
+		include_once 'ubahtarif/sidebar.php';
 	}
 
 	protected function end()
 	{
-		include 'template/lihatkendaraan/footer.php';
+		include 'ubahtarif/footer.php';
 	}
 }
 

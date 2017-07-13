@@ -1,22 +1,15 @@
 <?php 
 require_once 'View.php'
 
-Class UbahTarifUI extends View
+class UbahTarifUI extends View
 {
-	public function getDataKeuangan(){
-		
-	}
-	public function ubahTarifParkir(){
-		include_once 'controller/KeuanganControl.php';
+	public function ubahTarifParkir()
+	{
+		include_once 'model/KeuanganControl.php';
 		$kc = new KeuanganControl();
-		$data = $kc->ubahTarifParkir();
-		$data_tarif = $data['tarif'];
-		$data_kategori = $data['kategori'];
+		$data = $kc->UbahTarif();
 		include_once 'pages/formedittarif.php';
 		$this->end();
-	}
-	public function updateTarif(){
-
 	}
 }
 

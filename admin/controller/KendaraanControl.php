@@ -1,19 +1,16 @@
 <?php 
 include_once 'Controller.php';
-class KeuanganControl extends Controller
+class KendaraanControl extends Controller
 {
 	
-	public function getDataKeuangan()
+	public function getDataKendaraan()
 	{
 
 	}
-	public function ubahTarifParkir()
+	public function cetakDataKendaraan()
 	{
 
 	}
-	public function updateTarif()
-	{
 
-	}
 }
 ?>
